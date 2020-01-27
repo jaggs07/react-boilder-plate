@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-const title = 'React';
+import App from './App'
+
 ReactDOM.render(
-  <div>{title}</div>,
+  <div><App /></div>,
   document.getElementById('app')
 );
 
-module.hot.accept();
+module.hot.accept()
+
